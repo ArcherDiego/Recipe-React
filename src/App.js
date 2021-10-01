@@ -1,11 +1,22 @@
+import Button from "./components/Button";
 import Input from "./components/Input";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <form>
-        <Input />
-      </form>
+      <header>
+
+      </header>
+      <main>
+        <form>
+          <label></label>
+          <Input />
+        </form>
+        <Button name={ '+' } />
+      </main>
+      <footer>
+
+      </footer>
     </div>
   );
 }
