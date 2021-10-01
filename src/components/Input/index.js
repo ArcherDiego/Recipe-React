@@ -1,4 +1,4 @@
-const Input = ({}) => {
+const Input = () => {
     return (
         <input type='text'></input>
     )
