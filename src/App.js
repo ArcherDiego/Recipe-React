@@ -1,21 +1,23 @@
-import Button from "./components/Button";
-import Input from "./components/Input";
+import FormRecipe from "./components/Main/FormRecipe";
+import Nav from "./components/Header/Nav";
+import Logo from "./components/Header/Logo";
+import { IconLinkedin, IconGitHub } from "./components/Footer";
+import Card from "./components/Main/Card";
 
 const App = () => {
   return (
     <div className="App">
       <header>
-
+        <Logo />
+        <Nav />
       </header>
       <main>
-        <form>
-          <label></label>
-          <Input />
-        </form>
-        <Button name={ '+' } />
+        <FormRecipe />
+        <Card />
       </main>
       <footer>
-
+        <IconLinkedin />
+        <IconGitHub />
       </footer>
     </div>
   );
