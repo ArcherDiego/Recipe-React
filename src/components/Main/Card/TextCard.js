@@ -1,3 +1,5 @@
+//fetch(api.spoonacular.com/food/ingredients/search)
+
 const TextCard = () => {
     return (
         <div>
