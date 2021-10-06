@@ -11,7 +11,7 @@ const colors = {
 const theme = {
   colors,
   borderRadius: "5px",
-  fontFamily: "'sanSerif'",
+  fontFamily: "'sans-serif'",
 };
 
 export default theme;

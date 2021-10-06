@@ -12,16 +12,14 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     font-family: sanSerif;
   }
-  /* Full height layout */
-  html, body {
+  /* Full height layout */ 
+    html, body {
     display: flex;
     min-height: 100vh;
     width: 100%;
   }
-  #__next {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+  #root {
+    width: 100%
   }
 `;
 
