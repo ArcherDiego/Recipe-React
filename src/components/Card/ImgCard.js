@@ -1,6 +1,6 @@
 const ImgCard = () => {
     return(
-        <img src='https://place-hold.it/200x200' alt='recipe' />
+        <img src='https://place-hold.it/150x150' alt='recipe' />
     )
 }
 

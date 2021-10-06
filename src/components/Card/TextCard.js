@@ -1,4 +1,4 @@
-//fetch(api.spoonacular.com/food/ingredients/search)
+//fetch(GET https://api.spoonacular.com/recipes/complexSearch)
 
 const TextCard = () => {
     return (

@@ -1,16 +1,20 @@
 import GlobalStyle from "./theme/GlobalStyle"
 import Header from "./components/Header";
-import Main from "./components/Main";
+import Input from "./components/Input"
+import Card from "./components/Card"
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div>
+    <>
       <GlobalStyle />
       <Header />
-      <Main />
+      <Input />
+      <Card />
+      <Card />
+      <Card />
       <Footer />
-    </div>
+    </>
   );
 }
 

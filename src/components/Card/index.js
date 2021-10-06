@@ -1,12 +1,13 @@
 import ImgCard from "./ImgCard"
 import TextCard from "./TextCard"
+import StyledCard from "./style"
 
 const Card = () => {
     return (
-        <div>
+        <StyledCard>
             <ImgCard />
             <TextCard />
-        </div>
+        </StyledCard>
     )
 }
 

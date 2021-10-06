@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    font-family: sanSerif;
+    font-family: Times New Roman, serif;
   }
   /* Full height layout */ 
     html, body {
