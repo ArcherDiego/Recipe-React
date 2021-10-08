@@ -7,7 +7,7 @@ const StyleFooter = styled.footer`
   padding: 5px;
   display: flex;
   justify-content: center;
-  background-color: #D9D68B;
+  background-color: ${({ theme }) => theme.colors.primary.main.color};
 
   a {
     margin: 5px;

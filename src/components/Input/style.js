@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyleInput = styled.div`
-    margin: 3% 0 3% 0;
+    margin: 3% 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +12,7 @@ const StyleInput = styled.div`
         height: 30px;
     }
     label {
-        font-size: 1.5em;
+        font-size: ${({ theme }) => theme.fontSize.lg};
     }
 `;
 

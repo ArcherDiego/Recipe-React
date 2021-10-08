@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 const StyledHeader = styled.header`
     margin: 0;
-    padding: 5px 25px 5px 25px;
+    padding: 5px 25px;
     display: flex;
     justify-content: space-between;
-    background-color: #D9D68B;
+    background-color: ${({ theme }) => theme.colors.primary.main.color};
 
     img {
         width: 7%;
@@ -23,11 +23,10 @@ const StyledHeader = styled.header`
     }
     a {
         text-decoration: none;
-        color: black;
-        font-size: 1.5em
+        font-size: ${({ theme }) => theme.fontSize.lg};
     }
     a:hover {
-        color: gray;
+        color: ${({ theme }) => theme.colors.primary.secondary.color};
     }
 `;
 

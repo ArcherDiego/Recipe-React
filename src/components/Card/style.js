@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 const StyledCard = styled.div`
-    margin: 3% 10% 3% 10%;
+    margin: 3% 10%;
     display: flex;
     align-items: flex-start;
     border-radius: 15px;
-    background-color: lightgray;
+    background-color: ${({ theme }) => theme.colors.background};
 
     img {
         border-radius: 15px;
