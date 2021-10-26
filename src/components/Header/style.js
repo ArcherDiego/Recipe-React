@@ -12,21 +12,27 @@ const StyledHeader = styled.header`
         height: 7%;
         padding: 5px;
     }
+
     ul{
         display: flex;
         list-style-type: none;
         align-items: center;
         justify-content: space-around;
+        font-family: ${({ theme }) => theme.fontFamily};
         padding: 0;
         margin: 0;
-        width: 15%;
+        width: 20%;
     }
+
     a {
         text-decoration: none;
+        margin-right: 15px;
+        color: ${({ theme }) => theme.colors.primary.secondary.color};
         font-size: ${({ theme }) => theme.fontSize.lg};
     }
+
     a:hover {
-        color: ${({ theme }) => theme.colors.primary.secondary.color};
+        color: ${({ theme }) => theme.colors.primary.secondary.altColor};
     }
 `;
 

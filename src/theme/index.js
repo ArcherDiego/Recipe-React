@@ -4,7 +4,6 @@ const colors = {
   primary: {
     main: {
       color: "#EBE001",
-      altColor: "#EB173E",
     },
     secondary: {
       color: "#EB173E",

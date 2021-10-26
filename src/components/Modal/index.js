@@ -8,7 +8,7 @@ const Modal = () => {
 
     return (
         <ModalStyle>
-            <button onClick={ () => setModalVisible(true) }>Put your key to fecth</button>
+            <button onClick={ () => setModalVisible(true) }>Key to access the website</button>
             { modalVisible && <Conteiner />}
         </ModalStyle>
     )

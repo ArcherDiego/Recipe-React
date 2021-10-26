@@ -9,7 +9,7 @@ export const ModalStyle = styled.div`
 
 export const ContainerStyle = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -20,9 +20,10 @@ export const ContainerStyle = styled.div`
     justify-content: center;
 
     div {
+        position: fixed;
         background-color: white;
         color: black;
-        width: 60%;
+        width: 50%;
         height: 60%;
         border-radius: 10px;
         padding: 15px;
@@ -32,7 +33,31 @@ export const ContainerStyle = styled.div`
 
         button {
             margin: 5px;
-            right: 15px;
+            font-family: ${({ theme }) => theme.fontFamily};
+        }
+
+        h1 {
+            margin: 10px;
+            font-size: ${({ theme }) => theme.fontSize.xl};
+            font-family: ${({ theme }) => theme.fontFamily};
+        }
+
+        a {
+            margin-top: 50px;
+            font-size: ${({ theme }) => theme.fontSize.md};
+            font-family: ${({ theme }) => theme.fontFamily};
+            color: ${({ theme }) => theme.colors.primary.secondary.color};
+        }
+
+        a:hover {
+            color: ${({ theme }) => theme.colors.primary.secondary.altColor};
+        }
+
+        input {
+            margin-top: 50px;
+            width: 300px;
+            font-size: ${({ theme }) => theme.fontSize.md};
+            font-family: ${({ theme }) => theme.fontFamily};
         }
     }
 `;
