@@ -1,19 +1,16 @@
 import { ModalStyle } from "./style"
-import Conteiner from "./Conteiner"
-import { useState } from "react"
+import Container from "./Conteiner"
+import { useState, useEffect } from "react"
 
 const Modal = () => {
 
     const [modalVisible, setModalVisible] = useState(false)
 
-    const verification = () => {
-        setModalVisible(false);
-    }
+    useEffect(() => setModalVisible(true), [])
 
     return (
         <ModalStyle>
-            <button onClick={ () => setModalVisible(true) }>Key to access the website</button>
-            { modalVisible && <Conteiner onClose={ verification } />}
+            { modalVisible && <Container onClose={ () => setModalVisible(false) } />}
         </ModalStyle>
     )
 }
