@@ -5,9 +5,14 @@ const Container = ({ onClose }) => {
 
     const [apiKey, setApiKey] = useState('')
     const handleChange = ({ target }) => {
-        let userKey = (target.value)
-        setApiKey(userKey);
+        setApiKey(target.value);
     }
+
+    /*const verification = () => {
+        fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${userKey}`)
+        .then(res => res.json())
+        .then()
+    }*/
 
     return (
         <ContainerStyle>

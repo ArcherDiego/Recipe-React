@@ -10,7 +10,7 @@ export const ModalStyle = styled.div`
 export const ContainerStyle = styled.div`
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
@@ -20,7 +20,6 @@ export const ContainerStyle = styled.div`
     justify-content: center;
 
     div {
-        position: fixed;
         background-color: white;
         color: black;
         width: 50%;
