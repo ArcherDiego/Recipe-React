@@ -1,7 +1,7 @@
-const NavList = ({ name }) => {
+const NavList = ({ name, ref }) => {
     return(
         <li>
-            <a href="x">{ name }</a>
+            <a href={ref}>{ name }</a>
         </li>
     )
 }
